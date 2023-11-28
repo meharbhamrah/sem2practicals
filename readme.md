@@ -1,4 +1,4 @@
-#Program to find roots of a quadratic equation
+# Program to find roots of a quadratic equation
 import cmath
 a=int(input('Enter the value of a:'))
 b=int(input('Enter the value of b:'))
@@ -14,7 +14,7 @@ print(e1,e2)
     
 
     
-#Program to check whether a number is prime or not
+# Program to check whether a number is prime or not
 
 
 a=int(input('Enter the number that you want to check:'))
@@ -30,7 +30,7 @@ else:
     
     
     
-#Gernerating  prime number till between two intervals; 
+# Gernerating  prime number till between two intervals
 
 
 a=int(input('Enter the first interval : '))
@@ -77,7 +77,7 @@ for i in range(1, rows+1):
     p= 0
     print()
     
-#Program for reverse pyramid
+# Program for reverse pyramid
 rows = int(input("Enter number of rows: "))
 
 for i in range(rows, 1, -1):
@@ -90,7 +90,7 @@ for i in range(rows, 1, -1):
     print()
 
 
-#Program to check whether a givne character is letter,number or special character.
+# Program to check whether a givne character is letter,number or special character.
 char=input('Enter the character that you want to check:')
 if(char>='a' and char<='z') or (char>='A' and char<='Z'):
  print('The given character is a letter.')
@@ -99,7 +99,7 @@ elif(char>='0') and (char<='9'):
 else:
     print('The given character is a special character')
     
-#Program to check if the given character is letter then it is uppercase or lowercase
+# Program to check if the given character is letter then it is uppercase or lowercase
 
 x=input('Enter the letter that you want to check: ')
 if(x>='A' and x<='Z'):
@@ -109,7 +109,7 @@ elif(x>='a' and x<='z'):
 else:
     print('The given character is not a letter.')
     
-#Program to print number in words
+# Program to print number in words
 number=["","One","Two","Three","Four","Five","Six","Seven","Eight","Nine"]
 nty=["","","Twenty","Thirty","Fourty","Fifty","Sixty","Seventy","Eighty","Ninty"]
 tens=["Ten","Eleven","Twelve","Thirteen","Fourteen","Fifteen","Sixteen","Seventeen","Eighteen","Nineteen"]
@@ -145,16 +145,16 @@ else:
     print(num)
 
 
-#Program to count frequency of character in a string
+# Program to count frequency of character in a string
 x=input('Enter the text in which you want to count: ')
 y=input('Enter the letter that you want to count: ')
 print(x.count(y))
 
-# #Program to replace a character with another string
+# Program to replace a character with another string
 x='Ramanujan'
 print(x.replace('a','m'))
 
-#Program to remove first occurence of a character from a string
+# Program to remove first occurence of a character from a string
 a= input("Enter your text: ")
 char = input("Enter the character that you want to delete: ")
 result = ' '
@@ -165,13 +165,13 @@ for i in range(len(a)):
 print("Entered text       : ",a)
 print("Text after removing : ",result)
 
-#Program to remove all occurences of a string
+# Program to remove all occurences of a string
 a=input('Enter the text: ')
 b=input('Enter the character that you want to remove: ')
 print(a.replace(b, ' '))
 
 
-#Program to swap the first character of two strings
+# Program to swap the first character of two strings
 str1 = input("Please Enter First String : ")
 str2 =input("Please Enter Second String : ")
 
@@ -186,7 +186,7 @@ print("Your second string has become :- ",str2)
 
 
 
-#Function that accepts two strings and returns the indices of all occurences of second stirng in the first string as a list
+# Function that accepts two strings and returns the indices of all occurences of second stirng in the first string as a list
 
 def fdiff(str1, str2):
     
