@@ -1,7 +1,7 @@
 // Practical 3-Frequency of characters in a string 
 
 #include <iostream>
-using namespace std;
+using namespace std; 
 
 int main() {
   string str = "Hello world!";
