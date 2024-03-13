@@ -1,6 +1,6 @@
 //Practical 4
 #include <iostream>
-#include <cstring>
+#include <cstring> 
 #include <cctype>
 using namespace std;
 
