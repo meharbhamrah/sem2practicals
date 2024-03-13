@@ -3,7 +3,7 @@
 using namespace std;
 int main(){
     int n;
-    float sum = 0.0;
+    float sum = 0.0; 
     
     cout<<"Enter nth term of the series";
     cin>>n;
