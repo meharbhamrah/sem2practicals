@@ -3,7 +3,7 @@
 #include<iostream>
 using namespace std;
 
-bool exist(int arr[], int elem,int last){
+bool exist(int arr[], int elem,int last){ 
     for (int i=0; i<last;i++){
         if (arr[i]==elem)
         {
